@@ -1,0 +1,33 @@
+.button {
+  color: white;
+  background-color: black;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  /* border: 2px solid transparent; */
+}
+/* .button:focus,
+.button:active {
+  border: 2px solid rgb(255, 251, 251);
+} */
+
+button:focus {
+  /* styles for when the button is focused */
+  outline: none;
+  border: 2px solid transparent;
+  background-color: ligthgray;
+  box-shadow: 0 0 0 2px #666;
+}
+
+button:active {
+  /* styles for when the button is clicked */
+  background-color: #aaa;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px #444; /* creates a outer shadow */
+}
+
+/* .button:hover {
+  background-color: #555;
+} */

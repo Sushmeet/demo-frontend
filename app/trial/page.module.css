@@ -1,0 +1,98 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* auto centers the elemental horizontal margin */
+  padding: 0 24px;
+}
+
+/* does header need padding */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 28px;
+  border-bottom: 2px solid #e2e2e2;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.main {
+  min-height: 70vh;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.serviceList {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.serviceItem {
+  border: 1px solid lightgrey;
+  padding: 18px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.sectionText {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  border: 2px solid transparent;
+}
+.button:focus,
+.button:active {
+  border: 2px solid rgb(255, 251, 251);
+}
+
+.footer {
+  border-top: 2px solid lightgrey;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.address {
+  font-weight: bold;
+}
+
+/* 
+.footer p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  border-top: 2px solid lightgrey;
+  padding-top: 20px;
+} */
